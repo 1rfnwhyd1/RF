@@ -12,7 +12,7 @@ with open('encode.pkl', 'rb') as encoder_file:
     label_encoder = pickle.load(encoder_file)
 
 # Tampilan utama aplikasi
-st.title("Aplikasi Random Forest untuk Prediksi Buah")
+st.title("Aplikasi Prediksi Buah Random Forest")
 
 # Input untuk fitur prediksi
 diameter = st.number_input("Diameter (cm)", min_value=0.0, step=0.1)
